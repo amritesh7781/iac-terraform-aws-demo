@@ -21,5 +21,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "shopsmart_logs" {
-  bucket = "shopsmart-logs-<YOURNAME>"   # <-- Replace <YOURNAME> with something unique!
+  bucket = "shopsmart-logs-demo-amritesh"   # <-- Replace <YOURNAME> with something unique!
 }
